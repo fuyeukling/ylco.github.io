@@ -1,0 +1,268 @@
+@charset "utf-8";
+
+
+body {
+    background-color: #fff1f1;
+}
+
+
+#brandlogo {
+    float: left;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 4px;
+    float: left;
+    background-color: transparent;
+}
+
+#companyname {
+    padding: 0px;
+    font-family: "Al Bayan";
+    font-size: 10px;
+    color: #815656;
+}
+
+
+
+#welcome{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    margin-top: 10px;
+    font-size: 70px;
+    color: #A55555;
+}
+
+#subtitle{
+    font-family: Trebuchet MS, sans-serif ;
+    color: #915858;
+}
+
+
+
+#header {
+    text-align: right;
+    font-family: Trebuchet MS, sans-serif;
+}
+
+
+#header a {
+    text-decoration: none;
+    text-align: right;
+    color: #855959;
+    font-size: 17px;
+}
+
+#header a:hover{
+    color: #A9A9A9;
+}
+
+
+#intro {
+    font-family: Monospaced;
+    clear: both;
+    height: 320px;
+    width: 100%;
+    color: #ffeee6;
+    background-image: url("dustypink.jpg");
+    background-color: #7c5858;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 10px;
+}
+
+#contents {
+    clear: both;
+    overflow: unset;
+    padding-top: 20px;
+}
+
+#contents .side {
+    float: left;
+    width: 20%;
+    text-align: center;
+    background-color: transparent;
+    padding-bottom: 122px;
+}
+
+.contents .mainC {
+    float: right;
+    text-align: center;
+}
+
+
+
+.side #itembar {
+    text-align: start;
+    color: #ba8585;
+    position: relative;
+    left: -4px;
+    font-size: 16px;
+    font-family: Optima, sans-serif;
+
+}
+
+
+#main {
+    width: 78%;
+    padding-left: 10%;
+}
+
+.goto ul li {
+    list-style-type: none;
+    position: relative;
+    right: 40px;
+    padding-top: 10px;
+}
+
+.mainC .products .productInformation {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 100px;
+
+}
+
+.products .productInformation .oldprice {
+    font-family: 'monospace';
+    color: #726f6f;
+    font-size: 22px;
+    position: relative;
+    top: -15px;
+}
+.products .productInformation .saleprice {
+    font-family: 'monospace';
+    color: #9D4D4D;
+    font-size: 22px;
+    padding-top: 1px;
+    position: relative;
+    top: -40px;
+}
+
+
+
+.products .productInformation .name {
+    position: relative;
+    top: -45px;
+    font-size: 17px;
+    font-family: Optima, sans-serif;
+    font-style: inherit;
+    font-weight: 200;
+    color: #5B5B5B;
+}
+
+.products .productInformation .sizebutton {
+    position: relative;
+    top: -45px;
+    height: 20%;
+    width: 40%;
+    color: #fff;
+    background-color: #ba8585;
+    border-style: revert;
+    border-radius: 8px;
+    border-color: #816a6a;
+    font-size: 9px;
+    font-family: sans-serif;
+    margin-top: -3px;
+}
+
+.products .productInformation .sizebutton:hover {
+    background-color: #a2a2a2;
+}
+
+
+#main footer {
+    clear: both;
+    height: 20%;
+    background-color: #BE9090;
+    padding: 28px;
+    overflow: hidden;
+    font-weight: 170;
+    line-height: 1;
+    text-align: center;
+
+}
+
+.side #itembar .goto ul li a {
+    color: #ba8585;
+    font-size: 12px;
+    text-decoration: unset;
+}
+.side #itembar .goto ul li a:hover {
+    color: #531A1A;
+    text-decoration: unset;
+}
+
+
+.contactus a {
+    font-family: Trebuchet MS, sans-serif;
+    color: #7A5252;
+    font-size: 18px;
+    text-decoration: blink;
+}
+
+.contactus a :hover {
+    color: #D49E9E;
+}
+
+#ordernow{
+    font-family: Optima, sans-serif;
+    font-size: 18px;
+    color: #8d8d8d
+}
+
+#order{
+    border-radius: 20%;
+}
+
+#order:hover {
+    background-color: #a57474;
+}
+
+#alert{
+    font-size: 15px;
+    font-family: Impact, fantasy;
+    width: 150px;
+    height: 30px;
+    border-color: #ffe7db;
+    background-color: #ffff;
+    border-radius: 20px;
+    color: #b18484;
+    padding: 5px 10px;
+    margin: 2px 2px;
+}
+
+#alert:hover {
+    background-color: #cccc;
+    color: white;
+}
+
+#thx {
+    margin-top: 20px;
+    color: #f8ead9;
+    font-family: "Brush Script MT";
+    font-size: 40px;
+}
+
+#main footer .footerlinks {
+    padding-left: 8%;
+}
+
+#find{
+    color: #f8ead9;
+    font-family: Marker Felt, fantasy;
+    font-size: 20px;
+
+}
+
+#location{
+    color: #f8ead9;
+    font-size: 18px;
+    font-family: Marker Felt, fantasy;
+
+}
+
+#qrcode{
+    color: #000000;
+    font-family:Trebuchet MS, sans-serif;
+    font-size: 12px;
+}
